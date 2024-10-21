@@ -11,6 +11,14 @@
 
 <body>
   <h1 id="title">Drum 🥁 Kit</h1>
+  
+  <!-- Drum Kit Description -->
+  <p id="description">
+    Welcome to the Drum Kit! This interactive drum set lets you play various drum sounds simply by pressing the keys 
+    on your keyboard or clicking the buttons below. It's perfect for music enthusiasts, beginners, and anyone who 
+    wants to enjoy some rhythmic fun. Start tapping the keys and create your own beats!
+  </p>
+
   <div class="set">
     <button class="w drum">w</button>
     <button class="a drum">a</button>
@@ -21,13 +29,56 @@
     <button class="l drum">l</button>
   </div>
 
+  <!-- Compact Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 The Drum Kit | Contact: info@drumkit.com | +123 456 7890</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
 
-<script src="drumkitapp.js" charset="utf-8"></script>
-<footer>
+  <script src="drumkitapp.js" charset="utf-8"></script>
 
-    <h6>-Purnima</h6> 
-</footer>
-   
+  <style>
+    /* Compact Footer Styling */
+    .footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 14px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-family: 'Patua One', sans-serif;
+    }
+
+    .footer .social-icons {
+      margin-top: 5px;
+    }
+
+    .footer .social-icons a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .footer .social-icons a:hover {
+      color: #ff5722;
+    }
+
+    /* Description Styling */
+    #description {
+      text-align: center;
+      margin: 20px auto;
+      font-size: 18px;
+      width: 80%;
+      font-family: 'Mochiy Pop P One', sans-serif;
+      color: #555;
+    }
+  </style>
 
 </body>
 </html>
